@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #120a3f;
+    display: flex;
+  }
+  
+  h1 {
+    color: #ffffff;
+    font-size: 24px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .banner {
+    background-color: rgb(10, 10, 70);
+    color: #FFFFFF;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    font-family: "Impact", Dragon;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .banner h2 {
+    font-size: 24px;
+    font-style: italic;
+    align-self: center;
+  }
+  
+
+  .top-links {
+    display: flex;
+    align-items: baseline;
+    justify-content: right;
+    text-decoration: none;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  a {
+    text-decoration: none;
+    padding-right: 10px;
+    color: aliceblue;
+  }
+
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 126, 57);
+    width: 95%;
+    padding: 25px 25px;
+    border-radius: 10px;
+  }
+
+  button {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(to right, #FFC107, #FF9800);
+    color: rgb(88, 27, 42);
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+
+  button:hover {
+    background: linear-gradient(to right, #FF9800, #FFC107);
+  }
+
+  .introBottom {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .introTop {
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+  }
+
+  .pictureList {
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .picturesList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    color: blanchedalmond;
+  }
+
+  .h3 {
+    display: flex;
+    justify-content: center;
+    color: blanchedalmond;
+  }
+
+  .bottom {
+    background-color: rgb(15, 126, 57);
+    padding: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .bottomRibbon {
+    display: flex;
+    background-color: rgb(15, 126, 57);
+    justify-content: right;
+    padding: 8px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
